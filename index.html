@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
-        <input type="text">
-            <button>
+        <h1>Digite a cidade:</h1>
+        <input type="text" class="input-cidade">
+            <button onclick="cliqueBotao()">
                 Buscar
             </button>
-            <h2>
-                Tempo em Paranavai
+            <h2 class="cidade">
             </h2>
-            <p>
-            21ºC
+            <p class="temp">
+                
             </p>
-            <img src="" alt="">
-                <p>Nublado</p>
-                <p>Umidade: 23%</p>
+            <img class="imagem" src="https://openweathermap.org/img/wn/04n.png" alt="">
+                <p class="nublado"></p>
+                <p class="umidade"></p>
         </input>
     </div>
     
+    <script src="script.js"> </script>
 </body>
 </html>
